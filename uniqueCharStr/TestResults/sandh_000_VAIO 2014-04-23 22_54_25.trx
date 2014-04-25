@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="61df57ee-4931-4514-b545-533422949b11" name="sandh_000@VAIO 2014-04-23 22:54:25" runUser="VAIO\sandh_000" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d8870dd0-dd74-45eb-ae4c-4bb7677e52f6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="sandh_000_VAIO 2014-04-23 22_54_25">
+      <DeploymentItem filename="c:\users\sandh_000\documents\visual studio 2010\Projects\uniqueCharStr\uniqueCharStr\bin\Debug\uniqueCharStr.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2014-04-23T22:54:25.3801756-07:00" queuing="2014-04-23T22:54:25.4772399-07:00" start="2014-04-23T22:54:25.4852452-07:00" finish="2014-04-23T22:54:25.8975232-07:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="extractTest_PASS" storage="c:\users\sandh_000\documents\visual studio 2010\projects\uniquecharstr\uniquechartest\bin\debug\uniquechartest.dll" id="bcafcf9b-1fa7-e677-3189-7a194d9d1db5">
+      <Execution id="6ea1b901-002f-4cac-9cfb-40fdc9670292" />
+      <TestMethod codeBase="c:/users/sandh_000/documents/visual studio 2010/Projects/uniqueCharStr/UniqueCharTest/bin/Debug/UniqueCharTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="UniqueCharTest.UniqueTest, UniqueCharTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="extractTest_PASS" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="bcafcf9b-1fa7-e677-3189-7a194d9d1db5" executionId="6ea1b901-002f-4cac-9cfb-40fdc9670292" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="6ea1b901-002f-4cac-9cfb-40fdc9670292" testId="bcafcf9b-1fa7-e677-3189-7a194d9d1db5" testName="extractTest_PASS" computerName="VAIO" duration="00:00:00.0319684" startTime="2014-04-23T22:54:25.4932509-07:00" endTime="2014-04-23T22:54:25.8705049-07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6ea1b901-002f-4cac-9cfb-40fdc9670292">
+    </UnitTestResult>
+  </Results>
+</TestRun>
